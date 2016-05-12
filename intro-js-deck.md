@@ -32,7 +32,9 @@ What does this mean? Check it [out](http://codepen.io/twhitacre/full/MwKXxz/)!
 
 ## So, What is Programming?
 
-Writing instructions for your computer to execute at a later time.
+It's not magic, though it can look that way sometimes.
+
+Programming is simply writing instructions for your computer to execute at a later time.
 
 ---
 
@@ -55,7 +57,7 @@ Writing instructions for your computer to execute at a later time.
 
 ---
 
-### Data Types
+### JavaScript Data Types
 
 * `Number` looks like: *1* or *500* or *3.14*
 * `String` looks like "Any Message in Quotes"
@@ -76,13 +78,21 @@ You can do lots of cool things with JavaScript...like math!
 
 ---
 
-You can even do some fancy tricks.
+You can even do some fancy tricks, like get a random number.
 
-Get random number:
-  - Between 0 and 1 `Math.random()`
-  - Between 1 and 10 (inclusive) `Math.floor(Math.random() * 10) + 1`
+Between 0 and 1:
 
-Try it using repl.it!
+  ```javascript
+  Math.random()
+  ```
+
+  Between 1 and 10:
+
+  ```javascript
+  Math.floor(Math.random() * 10) + 1`
+  ```
+
+Try it using [repl.it](https://repl.it/languages/javascript_web)!
 
 What do you think `Math.ceil(Math.random() * 10) + 1` does?
 
@@ -90,15 +100,15 @@ What do you think `Math.ceil(Math.random() * 10) + 1` does?
 
 ###  Variables
 * Are named values
-* You can change the value of a variable
+* The value is *variable* - you can change the value
 
 ```javascript
-var firstName = 'Kelly';
+var firstName = "Kelly";
 ```
 
 ---
 
-### Let's try it out
+### Try it out
 
 In repl.it, type:
 
@@ -130,15 +140,15 @@ What happens?
 
 ### Functions
 
-What if I want to make other sentences exciting? Manually updating the variable isn't very efficient, and programming is all about efficiency.
+What if I want to make other sentences exciting? Manually updating the variable is not very efficient, and programming is all about efficiency.
 
-Instead, I'll use a function.
+Instead, use a function.
 
 A function is a named block of instructions.
 
 ---
 
-Let's try it ourselves!
+Try it!
 
 In repl.it, type:
 
@@ -153,7 +163,7 @@ What happens? Try it yourself, then insert your own string.
 
 ---
 
-# [fit] Now Let's Build Something!
+# [fit] Now we can build something!
 
 ---
 
