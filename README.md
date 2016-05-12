@@ -1,2 +1,3 @@
-# tiyd-js-crash-course
-JavaScript Crash Course TIY Durham May 2016
+## Introduction to JavaScript
+### Hosted by The Iron Yard Durham
+#### May 12, 2016
